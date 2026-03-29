@@ -1,0 +1,6 @@
+Google Real IP:
+142.250.65.78
+
+Hidden Service:
+Server: nginx/1.24.0 (Ubuntu)
+Port: 8080
