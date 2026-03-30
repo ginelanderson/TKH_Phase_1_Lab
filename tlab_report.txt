@@ -1,0 +1,9 @@
+IP Route Output:
+default via 172.20.10.1 dev enp0s3
+172.20.10.0/24 dev enp0s3 proto kernel scope link src 172.20.20.4
+
+TCP Handshake Evidence:
+Flags [S]
+Flags [S.]
+Flags [.]
+
