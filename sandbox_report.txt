@@ -1,0 +1,10 @@
+==================================================
+SESSION 10: SANDBOX DETONATION REPORT
+Operator: student
+==================================================
+
+QUESTION 1: Did the ping to google.com succeed or fail in Host-Only mode?
+ANSWER: The ping test to google.com resulted in 100% packet loss, with 0 packets received. This indicates that the virtual machine attempted to reach the external network but was unable to receive any response. This confirms that the sandbox environment is effectively isolated and external communication is blocked
+
+QUESTION 2: Why must a SOC analyst NEVER use "Bridged" mode when detonating unknown malware?
+ANSWER: Bridged mode connects the virtual machine directly to the local network, giving it its own IP address and allowing it to communicate with other devices on the same network. This creates a security risk because malware running inside the VM could scan, attack, or spread to other systems on the network. Therefore, Bridged mode breaks isolation and is unsafe for malware analysis.
