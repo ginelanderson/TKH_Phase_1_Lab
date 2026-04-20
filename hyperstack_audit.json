@@ -1,0 +1,6 @@
+{
+  "public_port_80": true,
+  "private_port_3306_exposed": false,
+  "container_to_vm_ping_blocked": false,
+  "persistence_verified": true
+}
