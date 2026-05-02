@@ -11,5 +11,6 @@ Confidence Audit (Yes/No):
 4. VS Code Remote-SSH: [Yes]
 
 Identify your weakest area and your plan to review it:
-My weakest area is Docker and Nmap. I plan to review how to use docker ps, docker run, and container management commands, as well as practice basic Nmap scans to understand port discovery and network visibility. I will reinforce these skills by re-running labs and practicing commands in my VM environment.
+My weakest area is Docker and Nmap. I plan to review how to use docker ps, docker run, and container management commands, as well as practice basic Nmap scans to understand port discovery and network visibility. 
+I will reinforce these skills by re-running labs and practicing commands in my VM environment.
 ==================================================
