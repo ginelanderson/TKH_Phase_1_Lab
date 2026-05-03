@@ -1,0 +1,8 @@
+HUNT:
+sudo find /var/log -type f -name "*.log" -user root 2>/dev/null
+
+EXTRACTION:
+sudo mv /var/log/titan_sim/auth_sim.log ~/Exam_Submission/
+
+LOCKDOWN:
+sudo chmod 444 ~/Exam_Submission/auth_sim.log
